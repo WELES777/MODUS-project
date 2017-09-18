@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<!-- I am not sure if I need this, but too scared to delete. -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Project Modus X</title>
+    <meta name="description" content="Flex-bootstrap webpage">
+    <!--[if lt IE 9]>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+      <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/plain" rel="author" href="http://projectmodus.com/humans.txt" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#d9d9d9">
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" href="/bower_components/reset-css/reset.css">
+    <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!-- endinject -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!--[if lt IE 8]>
+         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <noscript>Your browser does not support JavaScript!</noscript>
+    <header>
+        <div class="checkPositon"></div>
+        <div class="container">
+            <div class="row justify-content-between ">
+                <div class="col-xl-3">
+                    <div class="logo"><a href="#"><span>Modus</span> versus</a></div>
+                </div>
+                <div class="col-xl-9">
+                    <div class="main-nav">
+                        <ul>
+                            <li><a href="#">Home</a>
+                                <div class="main-nav-drop">
+                                    <ul>
+                                        <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Home page 1</a>
+                                            <ul class="level-3-submenu">
+                                                <li>Item 1</li>
+                                                <li>Item 2</li>
+                                                <li>Item 3 </li>
+                                                <li>Item 4 </li>
+                                            </ul>
+                                        </li>
+                                        <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Home page 2</a>
+                                            <ul class="level-3-submenu">
+                                                <li>Item 1</li>
+                                                <li>Item 2</li>
+                                                <li>Item 3 </li>
+                                                <li>Item 4 </li>
+                                            </ul>
+                                        </li>
+                                        <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Home page 2</a>
+                                            <ul class="level-3-submenu">
+                                                <li>Item 1</li>
+                                                <li>Item 2</li>
+                                                <li>Item 3</li>
+                                                <li>Item 4</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">About</a>
+                                <div class="main-nav-drop">
+                                    <ul>
+                                        <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">About page 1</a>
+                                            <ul class="level-3-submenu">
+                                                <li>Item 1</li>
+                                                <li>Item 2</li>
+                                                <li>Item 3 </li>
+                                                <li>Item 4 </li>
+                                            </ul>
+                                        </li>
+                                        <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">About page 2</a>
+                                            <ul class="level-3-submenu">
+                                                <li>Item 1</li>
+                                                <li>Item 2</li>
+                                                <li>Item 3 </li>
+                                                <li>Item 4 </li>
+                                            </ul>
+                                        </li>
+                                        <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">About page 3</a>
+                                            <ul class="level-3-submenu">
+                                                <li>Item 1</li>
+                                                <li>Item 2</li>
+                                                <li>Item 3 </li>
+                                                <li>Item 4 </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Services</a>
+                                <div class="main-nav-drop">
+                                    <ul>
+                                        <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Services page 1</a>
+                                            <ul class="level-3-submenu">
+                                                <li>Item 1</li>
+                                                <li>Item 2</li>
+                                                <li>Item 3 </li>
+                                                <li>Item 4 </li>
+                                            </ul>
+                                        </li>
+                                        <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Services page 2</a></li>
+                                        <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Services page 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Portfolio</a>
+                                <div class="main-nav-drop">
+                                    <ul>
+                                        <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Portfolio 2 column page</a>
+                                            <ul class="level-3-submenu">
+                                                <li>Item 1</li>
+                                                <li>Item 2</li>
+                                                <li>Item 3 </li>
+                                                <li>Item 4 </li>
+                                            </ul>
+                                        </li>
+                                        <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Portfolio 2 column page</a>
+                                            <ul class="level-3-submenu">
+                                                <li>Item 1</li>
+                                                <li>Item 2</li>
+                                                <li>Item 3 </li>
+                                                <li>Item 4 </li>
+                                            </ul>
+                                        </li>
+                                        <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Portfolio 2 column page</a>
+                                            <ul class="level-3-submenu">
+                                                <li>Item 1</li>
+                                                <li>Item 2</li>
+                                                <li>Item 3 </li>
+                                                <li>Item 4 </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Blog</a>
+                                <div class="main-nav-drop">
+                                    <ul>
+                                        <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Blog page 1</a>
+                                            <ul class="level-3-submenu">
+                                                <li>Item 1</li>
+                                                <li>Item 2</li>
+                                                <li>Item 3 </li>
+                                                <li>Item 4 </li>
+                                            </ul>
+                                        </li>
+                                        <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Blog page 2</a>
+                                            <ul class="level-3-submenu">
+                                                <li>Item 1</li>
+                                                <li>Item 2</li>
+                                                <li>Item 3 </li>
+                                                <li>Item 4 </li>
+                                            </ul>
+                                        </li>
+                                        <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Blog page 3</a>
+                                            <ul class="level-3-submenu">
+                                                <li>Item 1</li>
+                                                <li>Item 2</li>
+                                                <li>Item 3 </li>
+                                                <li>Item 4 </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Features</a>
+                                <div class="main-nav-drop">
+                                    <ul>
+                                        <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Features page 1</a>
+                                            <ul class="level-3-submenu">
+                                                <li>Item 1</li>
+                                                <li>Item 2</li>
+                                                <li>Item 3 </li>
+                                                <li>Item 4 </li>
+                                            </ul>
+                                        </li>
+                                        <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Features page 2</a></li>
+                                        <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Features page 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Contacts</a>
+                                <div class="main-nav-drop">
+                                    <ul>
+                                        <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Contact page 1</a>
+                                            <ul class="level-3-submenu">
+                                                <li>Item 1</li>
+                                                <li>Item 2</li>
+                                                <li>Item 3 </li>
+                                                <li>Item 4 </li>
+                                            </ul>
+                                        </li>
+                                        <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Contact page 2</a></li>
+                                        <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Contact page 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="main-search">
+                                <input type="text" placeholder="Search..."><i class="fa fa-search" aria-hidden="true"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line-measure"></div>
+    </header>
+    <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+        >> Next section
+         /////////////////////////////// -->
+    <section class="index">
+        <section class="wrapper-top ">
+            <div class="main-slider-index ">
+            </div>
+            <span class="main-slider-arrow1">
+              <i class="fa fa-angle-left" aria-hidden="true"></i>
+              <i class="fa fa-angle-left" aria-hidden="true"></i>
+            </span>
+            <div class="main-slider-title"><span>Vestibulum</span>
+                <div class="main-slider-subtitle">
+                    Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</div>
+            </div>
+            <span class="main-slider-arrow2">
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </span>
+        </section>
+        <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+            >> Next section
+             /////////////////////////////// -->
+        <section class="serv-index">
+            <div class="container">
+                <div class="index-ruler">
+                    <span class="slider-sub1 active"></span>
+                    <span class="slider-sub2"></span>
+                    <span class="slider-sub3"></span>
+                </div>
+                <div class="row justify-content-between under-slider">
+                    <div class="col-xl-9">
+                        <div class="serv-title ">Some of our top services
+                            <br /><span class="serv-subtitle">Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo. </span>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="but">
+                            <button>View more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl">
+                        <div class="serv1">
+                            <div class="icon"></div>
+                            <div class="ico-name">Suspendisse</div>
+                            <p class="ico-discr"> Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula ut nunc. </p>
+                            <div class="ico-butt">
+                                <button>read more</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl">
+                        <div class="serv2">
+                            <div class="icon"></div>
+                            <div class="ico-name">Maecenas</div>
+                            <p class="ico-discr">Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
+                            <div class="ico-butt">
+                                <button>read more</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl">
+                        <div class="serv3">
+                            <div class="icon"></div>
+                            <div class="ico-name">Aliquam</div>
+                            <p class="ico-discr">Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor non. </p>
+                            <div class="ico-butt">
+                                <button>read more</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl">
+                        <div class="serv4">
+                            <div class="icon"></div>
+                            <div class="ico-name">Habitasse</div>
+                            <p class="ico-discr">Astehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor non. </p>
+                            <div class="ico-butt">
+                                <button>read more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+            >> Next section
+             /////////////////////////////// -->
+        <section class="why-index">
+            <div class="line-measure"></div>
+            <div class="combo-title">
+                <span>Why modus versus?</span>
+                <div class="combo-subtitle">Capacitance cascading integer reflective interface data development high bus cache dithering transponder.</div>
+            </div>
+        </section>
+        <section class="combo-index">
+            <div class="container">
+                <div class="row workimages">
+                    <div class="col-xl-4">
+                        <div class="combo-img1"><img src="../img/workimage1.png" alt="workimage"></div>
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="combo-img2"><img src="../img/workimage2.png" alt="workimage"></div>
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="combo-img3"><img src="../img/workimage1.png" alt="workimage"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3">
+                        <div class="choose-us">
+                            <span>Why Choose Us ?</span>
+                            <ul>
+                                <li><i class="fa fa-arrow-right" aria-hidden="true"></i>Quisque at massa ipsum </li>
+                                <li><i class="fa fa-arrow-right" aria-hidden="true"></i>Maecenas a lorem augue, egestas </li>
+                                <li><i class="fa fa-arrow-right" aria-hidden="true"></i>Cras vitae felis at lacus eleifend </li>
+                                <li><i class="fa fa-arrow-right" aria-hidden="true"></i>Etiam auctor diam pellentesque </li>
+                                <li><i class="fa fa-arrow-right" aria-hidden="true"></i>Nulla ac massa at dolor </li>
+                                <li><i class="fa fa-arrow-right" aria-hidden="true"></i>Condimentum eleifend vitae vitae </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="features">
+                            <p class="top-features">Curabitur quis nisl in leo euismod venenatis eu in diam. Etiam auctor diam pellentesque lectus <a>vehicula mattis</a>. Nulla ac massa at dolor condimentum eleifend vitae vitae urna.</p>
+                            <div class="row indicators">
+                                <div class="col-xl">
+                                    <p class="progressImg1"></p><span>Suspendisse</span></div>
+                                <div class="col-xl">
+                                    <p class="progressImg2"></p><span>Maecenas</span></div>
+                                <div class="col-xl">
+                                    <p class="progressImg3"></p><span>Adivquam</span></div>
+                                <div class="col-xl">
+                                    <p class="progressImg4"></p><span>Habitasse</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="client-say">
+                            <span>What Client's Say ?</span>
+                            <p>
+                                Curabitur quis nisl in leo euismod venenatis eu in diam. Etiam auctor diam pellentesque lectus vehicula mattis. Nulla ac massa at dolor condimentum
+                            </p>
+                            <span>Jhon Doe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row combo-bottom">
+                    <div class="first-element">Our Happy Clients</div>
+                    <div class="second-element">
+                        <div class="line-between"></div>
+                    </div>
+                    <div class="third-element">
+                        <button class="brand-left"><i class="fa fa-angle-left fa-lg" aria-hidden="true"></i></button>
+                        <button class="brand-right"><i class="fa fa-angle-right fa-lg" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+                <div class="row combo-brand">
+                    <col-xl>
+                        <div class="wrapper"><img src="../img/brand1.png" alt="brandlabel"></div>
+                    </col-xl>
+                    <col-xl>
+                        <div class="wrapper"><img src="../img/brand2.png" alt="brandlabel"></div>
+                    </col-xl>
+                    <col-xl>
+                        <div class="wrapper"><img src="../img/brand3.png" alt="brandlabel"></div>
+                    </col-xl>
+                    <col-xl>
+                        <div class="wrapper"><img src="../img/brand4.png" alt="brandlabel"></div>
+                    </col-xl>
+                    <col-xl>
+                        <div class="wrapper"><img src="../img/brand5.png" alt="brandlabel"></div>
+                    </col-xl>
+                    <col-xl>
+                        <div class="wrapper"><img src="../img/brand6.png" alt="brandlabel"></div>
+                    </col-xl>
+                </div>
+            </div>
+        </section>
+        <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+        >> Another pages
+         /////////////////////////////// -->
+        <!-- Careful with white spaces -->
+        <!--    //= template/home.html -->
+        <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+        >> Next section (footer)
+         /////////////////////////////// -->
+        <footer>
+            <div class="container">
+                <div class="line-measure"></div>
+                <div class="row combo-footer">
+                    <div class="col-xl-4">
+                        <div class="logo"><a href="#"><span>Modus</span> versus</a></div>
+                        <p class="footer-discr">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec.
+                        </p>
+                        <div class="cont-info-footer">
+                            <div class="addrs">
+                                Phone: <span>182 2569 5896</span>
+                            </div>
+                            <div class="addrs">
+                                e-mail: <span>info@modu.versus</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl">
+                        <div class="footer-title">Company</div>
+                        <ul class="footer-nav">
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">About</a></li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Faq</a></li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Contact</a></li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Terms</a></li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Privacy</a></li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Testemonials</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl">
+                        <div class="footer-title">Community</div>
+                        <ul class="footer-nav">
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Blog</a></li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Forum</a></li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Support</a></li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Newsletter</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-4">
+                        <p class="footer-photo">from the <span>BLOG</span></p>
+                        <div class="footer-img1">
+                            <img src="../img/humanplaceholder.png" alt="commentator" />
+                            <p class="footer-comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                <br /><span>26 May, 2013</span></p>
+                        </div>
+                        <div class="footer-img2">
+                            <img src="../img/humanplaceholder.png" alt="commentator">
+                            <p class="footer-comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                <br /><span>26 May, 2013</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <section class="rights">
+            <div class="rights-content">
+                <div class="part1">2013 ModusVersus</div>
+                <div class="part2">
+                    <ul>
+                        <li><i class="fa  fa-facebook"></i></li>
+                        <li><i class="fa  fa-google-plus"></i></li>
+                        <li><i class="fa  fa-twitter"></i></li>
+                        <li><i class="fa  fa-rss"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+        >> Footer libraries
+         /////////////////////////////// -->
+        <!-- bower:js -->
+        <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="/bower_components/popper.js/dist/umd/popper.min.js"></script>
+        <script src="/bower_components/progressbar.js/dist/progressbar.js"></script>
+        <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- endinject -->
+</body>
+<script type="text/javascript" src="./js/main.js"></script>
+
+</html>

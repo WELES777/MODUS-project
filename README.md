@@ -1,2 +1,2 @@
 # MODUS-project
-Website from template, created using flexbox technologie. NOT finished
+Website from template, created using flexbox model. NOT finished
